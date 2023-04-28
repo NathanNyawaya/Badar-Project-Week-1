@@ -19,7 +19,7 @@ function Category() {
             key={index}
             className={`bg-gray-100 p-2 rounded cursor-pointer ${
               selectedCategory === title
-                ? "bg-gray-600 text-[1.1rem]"
+                ? "bg-gray-600 text-[1.1rem] text-white font-medium"
                 : "hover:bg-gray-400"
             }`}
             onClick={() => handleClick(title)}

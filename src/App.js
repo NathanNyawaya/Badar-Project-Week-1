@@ -4,7 +4,7 @@ import Product from "./components/Product";
 import {CategoryContext} from './context'
 
 
-const { Provider, Consumer} = CategoryContext
+const { Provider} = CategoryContext
 
 function App() {
   const [data, setData] = useState("FAKE: electronics")

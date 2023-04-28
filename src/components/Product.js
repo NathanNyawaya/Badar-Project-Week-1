@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, {useContext } from "react";
 import Products from "../fake-data/all-products";
 import { CategoryContext } from "../context";
 
